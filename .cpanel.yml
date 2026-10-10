@@ -1,0 +1,7 @@
+---
+# cPanel's Git deploy (Deploy HEAD Commit): the site's files into foenjam.net's document root, ~/foenjam.net.
+# ⚠ A file not listed here is never deployed.
+deployment:
+  tasks:
+    - export DEPLOYPATH=$HOME/foenjam.net/
+    - /bin/cp index.html stage.webp favicon.svg favicon.ico apple-touch-icon.png $DEPLOYPATH
