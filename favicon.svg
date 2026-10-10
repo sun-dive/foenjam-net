@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- foenjam: a Flying V in the jam badge's colours, on the stage's dark -->
+  <defs>
+    <linearGradient id="jam" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd166"/>
+      <stop offset=".45" stop-color="#ff8a3d"/>
+      <stop offset="1" stop-color="#ff4136"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="14" fill="#170904"/>
+  <g transform="rotate(25 32 32) translate(32 32) scale(.9) translate(-32 -32)" fill="url(#jam)" stroke-linejoin="round">
+    <path d="M28.5 3h7l1 8h-9z"/>
+    <rect x="30" y="10" width="4" height="22" rx="1"/>
+    <path d="M32 23 13 57l8 4 11-18 11 18 8-4z" stroke="url(#jam)" stroke-width="2"/>
+    <rect x="27.5" y="29" width="9" height="3" rx="1" fill="#170904"/>
+    <rect x="26" y="35" width="12" height="3" rx="1" fill="#170904"/>
+  </g>
+</svg>
